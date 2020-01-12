@@ -15,7 +15,7 @@ namespace image {
 	public:
 		Image();
 		Image(const Image &image);
-		Image(int width, int height);
+		Image(unsigned int width, unsigned int height);
 		~Image();
 
 		virtual bool load(const std::string& filename, const std::string& format);

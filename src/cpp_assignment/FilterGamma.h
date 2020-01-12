@@ -7,7 +7,7 @@ namespace image {
 		float gamma;
 
 	public:
-		FilterGamma() : Filter() {}
+		FilterGamma() : gamma(0), Filter() {}
 		FilterGamma(float gamma) : gamma(gamma) {}
 		FilterGamma(const FilterGamma &src): gamma(src.gamma) {}
 		~FilterGamma() {}

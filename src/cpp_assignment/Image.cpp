@@ -3,7 +3,7 @@
 
 image::Image::Image() : Array2D<Color>() {}
 image::Image::Image(const Image &image) : Array2D<Color>(image) {}
-image::Image::Image(int width, int height) : Array2D<Color>(width, height) {}
+image::Image::Image(unsigned int width, unsigned int height) : Array2D<Color>(width, height, 0) {}
 image::Image::~Image() {}
 
 bool image::Image::load(const std::string& filename, const std::string& format) {

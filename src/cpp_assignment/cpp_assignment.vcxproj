@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FilterBlur.cpp" />
     <ClCompile Include="FilterGamma.cpp" />
     <ClCompile Include="FilterLinear.cpp" />
     <ClCompile Include="Image.cpp" />
@@ -30,6 +31,7 @@
     <ClInclude Include="..\..\include\imageio.h" />
     <ClInclude Include="..\..\include\vec3.h" />
     <ClInclude Include="Filter.h" />
+    <ClInclude Include="FilterBlur.h" />
     <ClInclude Include="FilterGamma.h" />
     <ClInclude Include="FilterLinear.h" />
     <ClInclude Include="Image.h" />
